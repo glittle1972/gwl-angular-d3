@@ -45,7 +45,7 @@ export class D3Service {
         graph.simulation.alphaTarget(0.3).restart();
       }
 
-      d3.drag().on("drag", dragged).on("end", ended);
+      event.on("drag", dragged).on("end", ended);
 
       function dragged() {
         node.fx = event.x;

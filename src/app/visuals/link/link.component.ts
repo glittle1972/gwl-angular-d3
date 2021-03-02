@@ -17,6 +17,3 @@ export class LinkComponent implements OnInit {
   }
 
 }
-
-export class LinkVisualComponent  {
-}
